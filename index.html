@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tired Friends NFT Collection</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        .social-links {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+        }
+        .social-link {
+            margin: 0 10px;
+            padding: 10px 15px;
+            border-radius: 5px;
+            text-decoration: none;
+            transition: background-color 0.3s;
+        }
+        .social-link i {
+            margin-right: 5px;
+        }
+        .social-link.twitter {
+            background-color: #1DA1F2;
+            color: white;
+        }
+        .social-link.telegram {
+            background-color: #26A5E4;
+            color: white;
+        }
+        .social-link.discord {
+            background-color: #7289DA;
+            color: white;
+        }
+    </style>
+    <script>
+        window.addEventListener('load', function() {
+            const images = document.querySelectorAll('img');
+            images.forEach(img => {
+                img.onerror = function() {
+                    console.error('Failed to load image:', img.src);
+                    img.style.border = '2px solid red';
+                };
+                img.onload = function() {
+                    console.log('Successfully loaded image:', img.src);
+                };
+            });
+        });
+    </script>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-logo">
+            <img src="IMAGES/TIRED%20FRIENDS%20PROFILE%20PICTURE%20-%20Copy.jpg" alt="Tired Friends Logo" class="logo-img">
+        </div>
+        <div class="nav-links" style="display: flex; gap: 30px; align-items: center;">
+            <a href="#home" style="color: #000000; text-decoration: none; font-weight: bold;">Home</a>
+            <a href="#story" style="color: #000000; text-decoration: none; font-weight: bold;">Our Story</a>
+            <a href="#collection" style="color: #000000; text-decoration: none; font-weight: bold;">Collection</a>
+            <a href="#roadmap" style="color: #000000; text-decoration: none; font-weight: bold;">Roadmap</a>
+        </div>
+        <div class="nav-social">
+            <a href="https://x.com/TiredFriendss" target="_blank"><i class="fab fa-twitter"></i></a>
+            <a href="https://t.me/TiredFriendsNFT" target="_blank"><i class="fab fa-telegram"></i></a>
+            <a href="https://discord.gg/xmhhCF7ywv" target="_blank"><i class="fab fa-discord"></i></a>
+        </div>
+    </nav>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <img src="IMAGES/TIRED%20FRIENDS%20BANNER%20-%20Copy.jpg" alt="Tired Friends Banner" class="hero-banner">
+            <h1>WELCOME TO TIRED FRIENDS</h1>
+            <a href="#" class="cta-button" style="display: inline-block; padding: 15px 30px; background-color: #FFD700; color: #fff; border-radius: 5px; text-decoration: none; font-weight: bold; font-size: 18px; transition: background-color 0.3s ease; box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);">MINT NOW</a>
+        </div>
+    </section>
+
+    <section id="story" class="story">
+        <div class="story-content">
+            <h2>Our Story</h2>
+            <div class="story-text">
+                <p>In a world where emotions rule, the Tired Friends have emerged—a diverse crew of 2,500 quirky characters, each carrying their own vibe. They aren't just tired; they're alive with personality, humor, and a touch of the unexpected.</p>
+                
+                <p class="meet-friends">Among them, you'll meet:</p>
+                
+                <ul class="friends-list">
+                    <li><span class="friend-type">The Vampire Friend</span> 🧛‍♂️, hauntingly charming with their nocturnal allure.</li>
+                    <li><span class="friend-type">The Scary Friend</span> 👻, a master of frights yet secretly misunderstood.</li>
+                    <li><span class="friend-type">The Hungry Friend</span> 🍔, forever craving (and not just food).</li>
+                    <li><span class="friend-type">The Cringed Friend</span> 😬, embodying those awkward, unforgettable moments.</li>
+                    <li><span class="friend-type">The Excited Friend</span> 🤩, buzzing with endless energy.</li>
+                </ul>
+
+                <p>Every face tells a story, whether it's one of joy 😄, mystery 🕵️‍♂️, or sheer chaos 💥. Together, they represent the full range of human emotions—celebrating what makes us weird, wild, and wonderfully unique 🌈.</p>
+
+                <p class="closing-text">The Tired Friends aren't just digital collectibles; they're a community 🤝, a reflection of us all, reminding us that in our exhaustion 😴, there's beauty 💫, humor 😂, and a story waiting to be told 📖.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="collection" class="collection">
+        <h2>Sneak Peek</h2>
+        <div class="collection-grid">
+            <div class="nft-card">
+                <img src="IMAGES/ART%20%23280%20-%20Copy.png" alt="Tired Friend #1">
+                <div class="nft-info">
+                    <h3>VAMPIRE FRIEND 🧛‍♂️</h3>
+                    <p>Beware of this sleepy vampire! He's too tired to hunt for blood tonight 🩸😴</p>
+                </div>
+            </div>
+            <div class="nft-card">
+                <img src="IMAGES/ART%20%233394%20-%20Copy.png" alt="Tired Friend #2">
+                <div class="nft-info">
+                    <h3>EXCITED FRIEND 🎉</h3>
+                    <p>Living his best life! This friend just had the most amazing adventure ✨🌟</p>
+                </div>
+            </div>
+            <div class="nft-card">
+                <img src="IMAGES/ART%20%23355%20-%20Copy.png" alt="Tired Friend #3">
+                <div class="nft-info">
+                    <h3>SCARY FRIEND 👻</h3>
+                    <p>Watch out! This spooky friend loves giving people a good fright 🎃😱</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="roadmap" class="roadmap">
+        <h2>Roadmap</h2>
+        <div class="timeline">
+            <div class="timeline-item">
+                <div class="phase">Phase 1: The Awakening 🚀</div>
+                <ul>
+                    <li>Build community with Discord, Twitter, Telegram 🌐</li>
+                    <li>Sneak peeks, polls, contests, giveaways 🎁</li>
+                    <li>Influencer partnerships, whitelist spots ⭐</li>
+                </ul>
+            </div>
+            <div class="timeline-item">
+                <div class="phase">Phase 2: The Launch 🎉</div>
+                <ul>
+                    <li>Mint 2,500 unique Tired Friends NFTs 🖼️</li>
+                    <li>Early mint giveaways and airdrops 🎯</li>
+                    <li>Special perks for early supporters 🌟</li>
+                </ul>
+            </div>
+            <div class="timeline-item">
+                <div class="phase">Phase 3: Post-Launch 📈</div>
+                <ul>
+                    <li>Rewards and special edition drops 🎨</li>
+                    <li>Marketplace to buy, sell, and trade 💹</li>
+                    <li>Monthly earnings from NFT ecosystem 💰</li>
+                </ul>
+            </div>
+            <div class="timeline-item">
+                <div class="phase">Phase 4: The Evolution 🌱</div>
+                <ul>
+                    <li>Bring Tired Friends to the metaverse 🎮</li>
+                    <li>Collaborations and merchandise 👕</li>
+                    <li>Charity for mental health 💝</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer" style="text-align: center;">
+        <div class="footer-logo">
+            <img src="IMAGES/TIRED%20FRIENDS%20PROFILE%20PICTURE%20-%20Copy.jpg" alt="Tired Friends Logo" class="footer-logo-img">
+        </div>
+        <div class="footer-social" style="text-align: center;">
+            <p style="font-size: 16px; color: #666; margin: 10px 0;">Follow and join us in our social!</p>
+            <a href="https://x.com/TiredFriendss" target="_blank" style="margin: 0 10px;"><i class="fab fa-twitter"></i></a>
+            <a href="https://t.me/TiredFriendsNFT" target="_blank" style="margin: 0 10px;"><i class="fab fa-telegram"></i></a>
+            <a href="https://discord.gg/xmhhCF7ywv" target="_blank" style="margin: 0 10px;"><i class="fab fa-discord"></i></a>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Tired Friends. All rights reserved.</p>
+        </div>
+    </footer>
+    <script src="app.js"></script>
+</body>
+</html>
